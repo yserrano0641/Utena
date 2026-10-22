@@ -31,7 +31,7 @@ a:visited {
 }
 
 a:hover {
-  color: rgb(36, 69, 46);
+  color: rgb(51, 23, 25);
 }
 
 a:active {
@@ -84,7 +84,22 @@ main img {
 }
 
 footer {
+  background-color: #f6f7fc;
+  padding: 40px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+footer .content {
   width: 800px;
   margin: 0 auto;
-  background-color: #f6f7fc;
+}
+
+footer a,
+footer a:visited {
+  color: rgb(204, 70, 106);
+}
+
+footer a:hover {
+  color: #9a3b53;
 }
